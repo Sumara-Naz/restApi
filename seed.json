@@ -1,0 +1,82 @@
+{
+    "Clients": [
+        {
+            "client_id": 108,
+            "name": "leena Raza",
+            "email": "leena.r@email.com",
+            "telephone": "074897543"
+        },
+        {
+            "client_id": 109,
+            "name": "John Peter",
+            "email": "John.peter@live.com",
+            "telephone": "074654321"
+        },
+        {
+            "client_id": 110,
+            "name": "Sara najdi",
+            "email": "sara.n@hotmail.com",
+            "telephone": "0749876543"
+        },
+        {
+            "client_id": 111,
+            "name": "Alof",
+            "email": "Alof76@gmail.com",
+            "telephone": "074765213"
+        }
+    ],
+    "Accounts": [
+        {
+            "acc_numb": 1432,
+            "client_id": 108,
+            "acc_type": "current"
+        },
+        {
+            "acc_numb": 7605,
+            "client_id": 109,
+            "acc_type": "saving"
+        },
+        {
+            "acc_numb": 5347,
+            "client_id": 110,
+            "acc_type": "saving"
+        },
+        {
+            "acc_numb": 5764,
+            "client_id": 111,
+            "acc_type": "current"
+        }
+    ],
+    "Transactions": [
+        {
+            "trans_id": 116,
+            "trans_date": "2022-12-09",
+            "trans_amount": 10000,
+            "acc_numb": 7605
+        },
+        {
+            "trans_id": 117,
+            "trans_date": "2022-10-23",
+            "trans_amount": 50000,
+            "acc_numb": 5764
+        },
+        {
+            "trans_id": 1018,
+            "trans_date": "2021-03-12",
+            "trans_amount": 7000,
+            "acc_numb": 1432
+        },
+        {
+            "trans_id": 1019,
+            "trans_date": "2023-01-29",
+            "trans_amount": 9000,
+            "acc_numb": 5347
+        },
+        {
+            "trans_id": 1020,
+            "trans_date": "2019-06-20",
+            "trans_amount": 20000,
+            "acc_numb": 5764
+        }
+    ]
+}
