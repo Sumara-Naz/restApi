@@ -59,7 +59,7 @@ async def update_Client(client_id : int, client : Client, resp: Response):
     if not clientExists:
         resp.status_code = status.HTTP_404_NOT_FOUND
         return    
-    database.update_client(client.name, client.email, client.telephone, client_id)   
+    database.update_client(client_id, client.name, client.email, client.telephone)
     return True
 
 #get all accounts for a client

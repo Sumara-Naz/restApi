@@ -139,11 +139,14 @@ def update_client():
     
     client = Client(client_id= client_id, name=name, email=email,telephone=telephone)
     resp = requests.put(url(f"/clients/{client_id}"), json=client.dict()) 
+    if resp.status_code == status.HTTP_200_OK:
+        print("successfully updated")
+        return
     if resp.status_code == status.HTTP_404_NOT_FOUND:
         print("the client with this id does not exist ")
         print("try again")
-    else:
-        print("successfully updated")  
+        return
+    print("Something went, please try again")
    
       
 def main():
