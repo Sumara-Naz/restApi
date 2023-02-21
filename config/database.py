@@ -84,7 +84,7 @@ class BankDB:
                 SET name = ?, email = ?, telephone = ? 
                 WHERE client_id = ? 
                 """
-                return self.call_database(update_client_query,name, email, telephone, client_id)
+                return self.call_database(update_client_query, name, email, telephone, client_id)
 
 
         def get_clients_accounts(self, client_id: int):
